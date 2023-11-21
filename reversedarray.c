@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&num);
     for(i=0;i<num;i++)
     {
-    printf("enter the array[%d] elements:",i);
+    printf("enter the array elements:",i);
     scanf("%d",&arr1[i]);
     }
     for(i=0;i<num;i++)
@@ -21,4 +21,4 @@ int main(){
         printf("%d\t",arr1[i]);
     }
     return 0;
-    }
+}
